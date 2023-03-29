@@ -1,2 +1,3 @@
-# css-only_carousel
-CSS only carousel able to auto-play
+# Criação de carrossel via HTML e CSS apenas
+
+Solução criada para diminuir impacto do não reconhecimento de scripts por CMS WordPress
