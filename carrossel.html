@@ -1,0 +1,93 @@
+<!-- Título da página -->
+<h1>CSS-only Carousel</h1>
+
+<!-- Descrição do carrossel -->
+<p>This carousel is created with HTML and CSS only.</p>
+
+<!-- Container principal do carrossel com atributo aria-label -->
+<section class="carousel" aria-label="Gallery">
+
+    <!-- Lista ordenada com os slides do carrossel -->
+    <ol class="carousel__viewport">
+
+        <!-- Primeiro slide com ID, tabindex e classe -->
+        <li id="carousel__slide1" tabindex="0" class="carousel__slide">
+
+            <!-- Container do slide -->
+            <div class="carousel__snapper">
+
+                <!-- Links para slides anterior e próximo -->
+                <a href="#carousel__slide4" class="carousel__prev">Go to last slide</a>
+                <a href="#carousel__slide2" class="carousel__next">Go to next slide</a>
+
+            </div>
+
+        </li>
+
+        <!-- Segundo slide com ID, tabindex e classe -->
+        <li id="carousel__slide2" tabindex="0" class="carousel__slide">
+
+            <!-- Container do slide -->
+            <div class="carousel__snapper"></div>
+
+            <!-- Links para slides anterior e próximo -->
+            <a href="#carousel__slide1" class="carousel__prev">Go to previous slide</a>
+            <a href="#carousel__slide3" class="carousel__next">Go to next slide</a>
+
+        </li>
+
+        <!-- Terceiro slide com ID, tabindex e classe -->
+        <li id="carousel__slide3" tabindex="0" class="carousel__slide">
+
+            <!-- Container do slide -->
+            <div class="carousel__snapper"></div>
+
+            <!-- Links para slides anterior e próximo -->
+            <a href="#carousel__slide2" class="carousel__prev">Go to previous slide</a>
+            <a href="#carousel__slide4" class="carousel__next">Go to next slide</a>
+
+        </li>
+
+        <!-- Quarto slide com ID, tabindex e classe -->
+        <li id="carousel__slide4" tabindex="0" class="carousel__slide">
+
+            <!-- Container do slide -->
+            <div class="carousel__snapper"></div>
+
+            <!-- Links para slides anterior e próximo -->
+            <a href="#carousel__slide3" class="carousel__prev">Go to previous slide</a>
+            <a href="#carousel__slide1" class="carousel__next">Go to first slide</a>
+
+        </li>
+
+    </ol>
+
+    <!-- Navegação do carrossel -->
+    <aside class="carousel__navigation">
+
+        <!-- Lista ordenada com botões para cada slide -->
+        <ol class="carousel__navigation-list">
+
+            <!-- Botão para o primeiro slide -->
+            <li class="carousel__navigation-item">
+                <a href="#carousel__slide1" class="carousel__navigation-button">Go to slide 1</a>
+            </li>
+
+            <!-- Botão para o segundo slide -->
+            <li class="carousel__navigation-item">
+                <a href="#carousel__slide2" class="carousel__navigation-button">Go to slide 2</a>
+            </li>
+
+            <!-- Botão para o terceiro slide -->
+            <li class="carousel__navigation-item">
+                <a href="#carousel__slide3" class="carousel__navigation-button">Go to slide 3</a>
+            </li>
+
+            <!-- Botão para o quarto slide -->
+            <li class="carousel__navigation-item">
+                <a href="#carousel__slide4" class="carousel__navigation-button">Go to slide 4</a>
+
+            </li>
+        </ol>
+    </aside>
+</section>
